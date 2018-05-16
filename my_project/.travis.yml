@@ -7,3 +7,8 @@ cm
  CD C\PYTHON\Scripts\my_project
 CD C\python\Scripts\my_project
 language: python
+python:
+  - "3.6.5"
+# command to install dependencies
+install: "pip install -r requirements.txt"
+script: nosetests
